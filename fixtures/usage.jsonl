@@ -1,0 +1,4 @@
+{"provider":"anthropic","model":"claude-opus-4-7","operation":"chat","inputTokens":12000,"outputTokens":3400,"durationMs":4200}
+{"provider":"anthropic","model":"claude-haiku-4-5","operation":"chat","inputTokens":800,"outputTokens":150}
+{"provider":"openai","model":"gpt-4o-2024-11-20","operation":"chat","inputTokens":5000,"outputTokens":1200}
+{"provider":"openai","model":"text-embedding-3-large","operation":"embeddings","inputTokens":20000,"outputTokens":0}
