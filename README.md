@@ -2,7 +2,7 @@
 
 Turn LLM usage records into **OpenTelemetry GenAI spans with computed per-call cost**. Feed it what your app already logs — provider, model, token counts — and get back OTLP/JSON spans (ready to ship to any OpenTelemetry endpoint) plus a cost summary.
 
-Part of the [Kinetic Gain](https://suite.kineticgain.com) GenAI observability lane.
+Takes normalized usage records from [`agent-trace-normalizer`](https://github.com/mizcausevic-dev/agent-trace-normalizer) as input; its output feeds [`llm-cost-budget-operator`](https://github.com/mizcausevic-dev/llm-cost-budget-operator) for enforced spend budgets.
 
 ## Why
 
